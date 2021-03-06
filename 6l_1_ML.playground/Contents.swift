@@ -1,3 +1,3 @@
 import UIKit
 
-var str = "Hello, world"
+var str = "how it's work"
