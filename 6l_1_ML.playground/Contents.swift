@@ -127,7 +127,7 @@ extension TrunkCar: CustomStringConvertible{
     }
 }
 
-struct Queue<T> {
+struct Queue<T>{
     private var cars: [T] = []
     mutating func push(_ car: T) {
         cars.append(car)
@@ -141,12 +141,12 @@ var carQueue = Queue<SportCar>()
 var trunkQueue = Queue<TrunkCar>()
     
 carQueue.push(SportCar(mark: "Toyta", year: 2000))
-carQueue.push(SportCar(mark: "Audi", year: 2007))
-carQueue.push(SportCar(mark: "BMW", year: 2020))
+//carQueue.push(SportCar(mark: "Audi", year: 2007))
+//carQueue.push(SportCar(mark: "BMW", year: 2020))
 print(carQueue)
-carQueue.pop()
-print(carQueue)
-trunkQueue.push(TrunkCar(mark: "MAZ", year: 1980))
-trunkQueue.push(TrunkCar(mark: "KAMAZ", year: 2020))
-print(trunkQueue)
+//carQueue.pop()
+//print(carQueue)
+//trunkQueue.push(TrunkCar(mark: "MAZ", year: 1980))
+//trunkQueue.push(TrunkCar(mark: "KAMAZ", year: 2020))
+//print(trunkQueue)
 
